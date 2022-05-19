@@ -13,16 +13,15 @@ btn.addEventListener("click", (event) => {
     const newRow = document.createElement("tr");
 
     const newTitle = document.createElement("th");
-    newTitle.innerHTML = title.value;
+    newTitle.innerText = title.value;
     newRow.appendChild(newTitle);
 
     const newAuthor = document.createElement("th");
-    newAuthor.innerHTML = author.value;
+    newAuthor.innerText = author.value;
     newRow.appendChild(newAuthor);
 
-
     const newYear = document.createElement("th");
-    newYear.innerHTML = year.value;
+    newYear.innerText = year.value;
     newRow.appendChild(newYear);
 
     // Displaying in UI
