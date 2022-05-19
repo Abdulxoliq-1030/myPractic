@@ -1,0 +1,23 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.todo-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+table {
+    margin-top: 3rem;
+    border: 1px solid;
+}
+
+
+th {
+    border: 1px solid;
+    border-collapse: collapse;
+}
