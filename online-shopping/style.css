@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.2s linear;
+}
+
+body {
+  background: #ddd;
+}
+
+.trash {
+  cursor: pointer;
+}
+
+.trash:hover {
+  color: coral;
+}
+
+.card img {
+  cursor: pointer;
+  width: 100%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+  background: blue;
+  color: #fff;
+}
+
+.heading {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.products-text {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.products-text a {
+  color: #fff;
+  font-size: 1.8rem;
+  text-decoration: none;
+}
+
+.products-text i {
+  color: coral;
+}
+
+#myCart {
+  padding: 1.1rem;
+  background: transparent;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  gap: 0.3rem;
+}
+
+#myCart:hover {
+  background: rgb(158, 156, 156);
+}
+
+.products {
+  text-align: center;
+  margin-top: 3rem;
+  font-size: 2.4rem;
+  padding: 0 7rem;
+}
+
+.products span {
+  color: #2a2a72;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+  margin-top: 3rem;
+  text-align: start;
+  font-size: 1.6rem;
+}
+
+.card {
+  background: #fff;
+  border-radius: 4px;
+  position: relative;
+  overflow: hidden;
+}
+
+.card:hover i {
+  right: 0;
+}
+
+.card i:hover {
+  color: #a2a1a1;
+}
+
+.card i {
+  position: absolute;
+  cursor: pointer;
+  right: -50px;
+  bottom: 65px;
+  background: #2a2a72;
+  color: #fff;
+  padding: 0.4rem;
+}
+
+.card-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.hide {
+  display: none;
+}
+
+.card:hover .card-title {
+  background: rgb(237, 247, 247);
+}
+
+.your-cart {
+  text-align: center;
+  font-size: 2.2rem;
+  margin-top: 1rem;
+}
+
+.my-products {
+  font-size: 1.5rem;
+  margin-top: 5rem;
+}
+
+.my-products img {
+  width: 30%;
+}
+
+.table-products th {
+  padding: 0 5rem;
+}
+
+.counter {
+  padding: 1rem;
+  border: 1px solid #000;
+  background-color: transparent;
+  font-size: 1.2rem;
+}
+
+.counter:hover {
+  background: #000;
+  color: #fff;
+}
+
+/* About Product */
+.about-products {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.about {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.product-about {
+  width: 30%;
+  text-align: start;
+}
+
+.about-button {
+  margin-top: 3rem;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.back {
+  padding: 0.4rem;
+  background-color: transparent;
+  border: 1px solid #5656b4;
+  color: #5656b4;
+}
+
+.back:hover {
+  color: #fff;
+  background-color: #5656b4;
+}
+
+.inCart {
+  padding: 0.4rem;
+  background-color: transparent;
+  border: 1px solid coral;
+  color: coral;
+}
+
+.inCart:hover {
+  color: #fff;
+  background-color: coral;
+}

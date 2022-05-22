@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ONLINE SHOPPING</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="products-text">
+        <i class="fas fa-phone"></i>
+        <a id="logo" href="index.html">Products</a>
+      </div>
+      <button id="myCart"><i class="fas fa-shopping-cart"></i>my cart</button>
+    </div>
+    <div class="shopping-zone">
+      <div class="products">
+        <h1 class="heading">Our <span>Products</span></h1>
+
+        <div class="cards">
+          <div class="card">
+            <img src="./images/product-0.png" alt="" />
+            <i class="fas fa-shopping-cart shopping-btn"></i>
+            <div class="card-title">
+              <h6 class="name">Google Pixel - Black</h6>
+              <span class="price">$ 10</span>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./images/product-1.png" alt="" />
+            <i class="fas fa-shopping-cart shopping-btn"></i>
+            <div class="card-title">
+              <h6 class="name">Samsung S7</h6>
+              <span class="price">$ 16</span>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./images/product-2.png" alt="" />
+            <i class="fas fa-shopping-cart shopping-btn"></i>
+            <div class="card-title">
+              <h6 class="name">HTC 10 - Black</h6>
+              <span class="price">$ 8</span>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./images/product-3.png" alt="" />
+            <i class="fas fa-shopping-cart shopping-btn"></i>
+            <div class="card-title">
+              <h6 class="name">HTC 10 - White</h6>
+              <span class="price">$ 18</span>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./images/product-4.png" alt="" />
+            <i class="fas fa-shopping-cart shopping-btn"></i>
+            <div class="card-title">
+              <h6 class="name">HTC Desire 626s</h6>
+              <span class="price">$ 24</span>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./images/product-5.png" alt="" />
+            <i class="fas fa-shopping-cart shopping-btn"></i>
+            <div class="card-title">
+              <h6 class="name">Vintage Iphone</h6>
+              <span class="price">$ 17</span>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./images/product-6.png" alt="" />
+            <i class="fas fa-shopping-cart shopping-btn"></i>
+            <div class="card-title">
+              <h6 class="name">Iphone 7</h6>
+              <span class="price">$ 30</span>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./images/product-7.png" alt="" />
+            <i class="fas fa-shopping-cart shopping-btn"></i>
+            <div class="card-title">
+              <h6 class="name">Smashed Iphone</h6>
+              <span class="price">$ 2</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- About Products -->
+    <div class="about-section">
+      <div class="about-products hide">
+        <h1></h1>
+        <div class="about">
+          <img src="" alt="" />
+          <div class="product-about">
+            <h2 id="product-name"></h2>
+            <h3 id="product-price"></h3>
+            <p>
+              Lorem Ipsum Dolor Amet Offal Butcher Quinoa Sustainable Gastropub,
+              Echo Park Actually Green Juice Sriracha Paleo. Brooklyn Sriracha
+              Semiotics, DIY Coloring Book Mixtape Craft Beer Sartorial Hella
+              Blue Bottle. Tote Bag Wolf Authentic Try-Hard Put A Bird On It
+              Mumblecore. Unicorn Lumbersexual Master Cleanse Blog Hella VHS,
+              Vaporware Sartorial Church-Key Cardigan Single-Origin Coffee Lo-Fi
+              Organic Asymmetrical. Taxidermy Semiotics Celiac Stumptown
+              Scenester Normcore, Ethical Helvetica Photo Booth Gentrify.
+            </p>
+            <div class="about-button">
+              <button class="back">back to products</button>
+              <button class="inCart">inCart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Cart section -->
+    <div class="your-cart hide">
+      <h1>Your Cart</h1>
+      <table class="my-products">
+        <tr>
+          <th>Products</th>
+          <th>Name of Product</th>
+          <th>Price</th>
+          <th>Remove</th>
+        </tr>
+      </table>
+    </div>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
